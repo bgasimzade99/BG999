@@ -25,6 +25,27 @@ body {
    background: var(--bg-color);
    color: var(--text-color);
 }
+.logo-container {
+   width: 100px; /* Adjust size as needed */
+   height: 100px;
+   border-radius: 50%; /* Creates a circular shape */
+   overflow: hidden; /* Ensures the logo stays within the circular boundary */
+   display: inline-block; /* Allows for inline display */
+   background-color: #ffffff; /* Optional: Sets a background color for the circle */
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow effect */
+}
+
+.logo-container img {
+   display: block; /* Ensures the image behaves like a block element inside its container */
+   width: 100%; /* Ensures the image fills its container */
+   height: auto; /* Maintains aspect ratio */
+}
+
+.logo-container img {
+   display: block; /* Ensures the image behaves like a block element inside its container */
+   width: 100%; /* Ensures the image fills its container */
+   height: auto; /* Maintains aspect ratio */
+}
 
 .header {
    position: fixed;
